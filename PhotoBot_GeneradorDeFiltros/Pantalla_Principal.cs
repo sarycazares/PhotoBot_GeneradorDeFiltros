@@ -3,19 +3,21 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PhotoBot_GeneradorDeFiltros
 {
-    public partial class Form1 : Form
+    public partial class Pantalla_Principal : Form
     {
-        public Form1()
+        public Pantalla_Principal()
         {
             InitializeComponent();
         }
 
+        private void Pantalla_Principal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
